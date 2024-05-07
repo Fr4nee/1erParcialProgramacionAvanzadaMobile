@@ -118,8 +118,6 @@ fun ValidarLogin(usuario: String, contraseña: String): Boolean {
     return usuario == usuarioAValidar && contraseña == contraseñaAValidar
 }
 
-
-
 @Preview(showBackground = true)
 @Composable
 fun LoginPreview() {
